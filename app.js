@@ -4,6 +4,7 @@ global.appRoot = path.resolve(__dirname);
 const express = require("express");
 const app = express();
 var cors = require('cors');
+
 app.use(cors()) ;
 //app.use(express.static('fp fr\build'));
 
